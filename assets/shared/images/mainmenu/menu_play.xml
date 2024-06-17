@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Play Button.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="YALP 10000" x="0" y="251" width="200" height="110" frameX="-18" frameY="-20" frameWidth="260" frameHeight="151"/>
+	<SubTexture name="YALP 20000" x="221" y="128" width="221" height="123" frameX="-15" frameY="-12" frameWidth="260" frameHeight="151"/>
+	<SubTexture name="YALP 30000" x="223" y="0" width="223" height="128" frameX="-14" frameY="-13" frameWidth="260" frameHeight="151"/>
+	<SubTexture name="PLAY 10000" x="200" y="251" width="200" height="110" frameX="-18" frameY="-20" frameWidth="260" frameHeight="151"/>
+	<SubTexture name="PLAY 20000" x="0" y="128" width="221" height="123" frameX="-15" frameY="-12" frameWidth="260" frameHeight="151"/>
+	<SubTexture name="PLAY 30000" x="0" y="0" width="223" height="128" frameX="-14" frameY="-13" frameWidth="260" frameHeight="151"/>
+</TextureAtlas>
