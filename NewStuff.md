@@ -8,7 +8,7 @@
 A full ass vault full of songs, so it takes REAL TIME to beat the mod
 
 - FRESH SONGS:
-check [SONGS.md](SONGS.md) for more info
+check [SONGS.md (SPOILERS!!!!!!!)](SONGS.md) for more info
 
 ## Not important
 - The BEST characters:

@@ -1,4 +1,8 @@
-# SONGS
+# SONGS (BE CAREFUL! MAY BE SPOILERS ABOUT CONTENT IN THE MOD!)
+
+
+
+
 
 ## FUNNY VARIANTS
 
@@ -56,12 +60,15 @@
 - EXElent
 - Tipic
 
-## FINALE
+## F̶̯̪̣̳̹͕̭̏̄̅̊̆͆̈́̉͜1̴̫͚̻̮̘̥̦̀̍̾̑́͝Ǹ̴̢̫̮̹͚͓̥͎̟̰̐̃́͊̔͗͜4̷͔̯̭͛͆̃ͅL̶͉̯̗͍̪͈̪̑̀̏̒͑̈́̔͠É̵̛̛̘̭͂̂̓͘
 
-- HELLO
-- Genocide
-- Bone
-- BYE BYE
-- DEVINY
+- ?????
+- ????????
+- ????
+- ??? ???
+- ??????
+
+
+
 
 **FINAL V1 SONG LIST, NOT SUBJECT TO CHANGES BY NOW**
