@@ -23,7 +23,7 @@ WE HAVE A FUNKIN GOD THAT LOOKS LIKE A CATNIP ADDICT LAZY ASS CAT, ISNT THAT COO
 It's design is revamped and the controls are different, also the UI controls aren't changed
 
 - No more Freeplay:
-It has been replaced with the Vault, for better organization and easier son search
+It has been replaced with the Vault, for better organization and easier song search
 
 ---
 
