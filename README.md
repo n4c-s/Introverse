@@ -7,10 +7,10 @@ Engine originally used on [Mind Games Mod](https://gamebanana.com/mods/301107), 
 ---
 
 ## We'd like you to check this files
-- [Mod Songs](SONGS.md)
+- [Mod Songs (SPOILERS!!!!!!!)](SONGS.md)
 - [New things list](NewStuff.md)
 
 ## DO NOT READ THIS
-- el contexto no es apto para sensibles 👀👀👀
+- el contexto no es apto para sensibles 👀👀👀 (voidferencia 👀👀👀)
 
 - We modified the README only to show you we are the best team in the modding community (REALLY bad joke), and to make you look into every single thing in the mod, we even hid some secrets and we want you to also know us more, so we would really appreciate it if you visited [our webpage](https://www.natunatic.xyz) and our other projects we are going to make ;)
