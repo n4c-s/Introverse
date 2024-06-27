@@ -18,12 +18,21 @@ import options.OptionsState;
 
 class MainMenuState extends MusicBeatState
 {
-   
+    public static var hoveringNow:Bool = false;
 
+    // discarded code
+    var starData:Array<Dynamic> = [SaveVariables.storySave[0], SaveVariables.storySave[1]];
 
     public static var introverseVersion:String = ' 0.7.2 build 103';
     public static var psychEngineVersion:String = '0.7.INTROVERSE';
     public static var curSelected:Int = 0;
+
+    // sum discarded shit too
+    public var menuLevelPostions:Array<Dynamic> = [
+        0 => '450, 300',
+        1 => '300, 300',
+        2 => '650, 300'
+    ];
 
     var menuItems:FlxTypedGroup<FlxSprite>;
     private var camGame:FlxCamera;
@@ -172,11 +181,6 @@ class MainMenuState extends MusicBeatState
 
 
         // Version Information
-        var versionShit:FlxText = new FlxText(12, FlxG.height - 512, 1200, "USE LEFT/RIGHT ARROWS TO NAVIGATE");
-        versionShit.scrollFactor.set();
-        versionShit.setFormat("VCR OSD Mono", 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-        add(versionShit);
-
         var versionShit:FlxText = new FlxText(12, FlxG.height - 64, 0, "Introverse v" + introverseVersion, 12);
         versionShit.scrollFactor.set();
         versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
@@ -219,11 +223,32 @@ class MainMenuState extends MusicBeatState
                 changeItem(1);
             }
 
-            #if optionShit = 1 (controls.UI_DOWN_P)
-                {
-                    FlxG.sound.play(Paths.sound('scrollMenu'));
-                    changeItem(optionShit[3]);
-                }
+            #if optionShit = 'vault' (controls.UI_DOWN_P)
+            {
+                FlxG.sound.play(Paths.sound('scrollMenu'));
+                changeItem(optionShit['options']);
+            }
+            #end
+            
+            #if optionShit = 'story_mode' (controls.UI_DOWN_P)
+            {
+                FlxG.sound.play(Paths.sound('scrollMenu'));
+                changeItem(optionShit['credits']);
+            }
+            #end
+
+            #if optionShit = 'options' (controls.UI_UP_P)
+            {
+                FlxG.sound.play(Paths.sound('scrollMenu'));
+                changeItem(optionShit['vault']);
+            }
+            #end
+
+            #if optionShit = 'credits' (controls.UI_UP_P)
+            {
+                FlxG.sound.play(Paths.sound('scrollMenu'));
+                changeItem(optionShit['story_mode']);
+            }
             #end
 
             if (controls.BACK)
@@ -247,7 +272,6 @@ class MainMenuState extends MusicBeatState
                    
 
                     menuItems.forEach(function(spr:FlxSprite)
-                    
                     {
                         if (curSelected != spr.ID)
                         {
@@ -261,6 +285,7 @@ class MainMenuState extends MusicBeatState
                         }
                         else
                         {
+                            
                             FlxFlicker.flicker(spr, 1, 0.06, false, false, function(flick:FlxFlicker)
                             {
                                 var daChoice:String = optionShit[curSelected];
@@ -287,13 +312,6 @@ class MainMenuState extends MusicBeatState
                     });
                 }
             }
-            #if desktop
-            else if (controls.justPressed('debug_1'))
-            {
-                selectedSomethin = true;
-                MusicBeatState.switchState(new MasterEditorMenu());
-            }
-            #end
         }
 
         super.update(elapsed);

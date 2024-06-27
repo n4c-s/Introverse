@@ -75,6 +75,32 @@ import states.TitleState;
 	public var safeFrames:Float = 10;
 	public var guitarHeroSustains:Bool = true;
 	public var discordRPC:Bool = true;
+
+	// discarded shit
+	public static var storySave:Array<Bool> = [false, false];
+	public static var worlds:Array<Int> = [0];
+
+	public static function saveSettings() {
+		final starNeed:Array<Int> = [3,];
+		var isDone:Int = 0;
+		for (i in 0...starNeed.length){
+			if(worlds[i] >= starNeed[i]){
+				worlds[i] = starNeed[i];
+				storySave[(i + 1)] = true;
+				isDone++;
+			}else{
+				storySave[(i + 1)] = false;
+			}
+
+			if(isDone == 5){storySave[2] = true;}
+			else{storySave[2] = false;}
+		}
+
+		
+		if(worlds[2] >= 4){
+			storySave[9] = true;
+		}
+	}
 }
 
 class ClientPrefs {

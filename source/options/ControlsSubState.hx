@@ -23,6 +23,7 @@ class ControlsSubState extends MusicBeatSubstate
 		[true, 'Up', 'note_up', 'Note Up'],
 		[true, 'Right', 'note_right', 'Note Right'],
 		[true],
+		[true, 'UI'],
 		[true, 'Reset', 'reset', 'Reset'],
 		[true, 'Accept', 'accept', 'Accept'],
 		[true, 'Back', 'back', 'Back'],
@@ -32,10 +33,6 @@ class ControlsSubState extends MusicBeatSubstate
 		[false, 'Mute', 'volume_mute', 'Volume Mute'],
 		[false, 'Up', 'volume_up', 'Volume Up'],
 		[false, 'Down', 'volume_down', 'Volume Down'],
-		[false],
-		[false, 'DEBUG'],
-		[false, 'Key 1', 'debug_1', 'Debug Key #1'],
-		[false, 'Key 2', 'debug_2', 'Debug Key #2']
 	];
 	var curOptions:Array<Int>;
 	var curOptionsValid:Array<Int>;
