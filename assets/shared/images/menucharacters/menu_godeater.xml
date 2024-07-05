@@ -1,15 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <TextureAtlas imagePath="menu_godeater.png">
-	<!-- Created with Adobe Animate version 24.0.1.329 -->
-	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="godeater0000" x="0" y="0" width="500" height="500" frameX="-1" frameY="0" frameWidth="501" frameHeight="512"/>
-	<SubTexture name="godeater0001" x="0" y="0" width="500" height="500" frameX="-1" frameY="0" frameWidth="501" frameHeight="512"/>
-	<SubTexture name="godeater0002" x="0" y="0" width="500" height="500" frameX="-1" frameY="0" frameWidth="501" frameHeight="512"/>
-	<SubTexture name="godeater0003" x="0" y="0" width="500" height="500" frameX="-1" frameY="0" frameWidth="501" frameHeight="512"/>
-	<SubTexture name="godeater0004" x="0" y="0" width="500" height="500" frameX="-1" frameY="0" frameWidth="501" frameHeight="512"/>
-	<SubTexture name="godeater0005" x="0" y="0" width="500" height="500" frameX="-1" frameY="0" frameWidth="501" frameHeight="512"/>
-	<SubTexture name="godeater0006" x="0" y="0" width="500" height="500" frameX="-1" frameY="0" frameWidth="501" frameHeight="512"/>
-	<SubTexture name="godeater0007" x="0" y="0" width="500" height="500" frameX="-1" frameY="0" frameWidth="501" frameHeight="512"/>
-	<SubTexture name="godeater0008" x="500" y="0" width="500" height="500" frameX="0" frameY="-11" frameWidth="501" frameHeight="512"/>
-	<SubTexture name="godeater0009" x="0" y="500" width="500" height="500" frameX="0" frameY="-12" frameWidth="501" frameHeight="512"/>
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="God Eater 10000" x="0" y="0" width="329" height="331" frameX="-17" frameY="-13" frameWidth="400" frameHeight="351"/>
+	<SubTexture name="God Eater 20000" x="329" y="0" width="329" height="310" frameX="-16" frameY="-34" frameWidth="400" frameHeight="351"/>
+	<SubTexture name="God Eater 30000" x="0" y="331" width="329" height="274" frameX="-17" frameY="-70" frameWidth="400" frameHeight="351"/>
+	<SubTexture name="God Eater 40000" x="329" y="0" width="329" height="310" frameX="-16" frameY="-34" frameWidth="400" frameHeight="351"/>
 </TextureAtlas>
