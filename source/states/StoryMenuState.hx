@@ -48,7 +48,7 @@ class StoryMenuState extends MusicBeatState
 		#if desktop
 		if (FlxG.random.bool(0.2))
 			{
-				Lib.application.window.title = "this week is trash -julibros and n4c before 0.5";
+				Lib.application.window.title = "pinche semana toda culera mejor borrenla -julibros y n4c antes de la 0.5 (no sacamos esta)";
 			}
 			else
 			{

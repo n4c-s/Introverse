@@ -24,7 +24,7 @@ class MainMenuState extends MusicBeatState
     var starData:Array<Dynamic> = [SaveVariables.storySave[0], SaveVariables.storySave[1]];
 
     public static var introverseVersion:String = ' 0.7.2 build 103';
-    public static var psychEngineVersion:String = '0.7.INTROVERSE';
+    public static var psychEngineVersion:String = '0.7.3 (Introverse version)';
     public static var curSelected:Int = 0;
 
     var menuItems:FlxTypedGroup<FlxSprite>;
@@ -215,34 +215,6 @@ class MainMenuState extends MusicBeatState
                 FlxG.sound.play(Paths.sound('scrollMenu'));
                 changeItem(1);
             }
-
-            #if optionShit = 'vault' (controls.UI_DOWN_P)
-            {
-                FlxG.sound.play(Paths.sound('scrollMenu'));
-                changeItem(optionShit['options']);
-            }
-            #end
-            
-            #if optionShit = 'story_mode' (controls.UI_DOWN_P)
-            {
-                FlxG.sound.play(Paths.sound('scrollMenu'));
-                changeItem(optionShit['credits']);
-            }
-            #end
-
-            #if optionShit = 'options' (controls.UI_UP_P)
-            {
-                FlxG.sound.play(Paths.sound('scrollMenu'));
-                changeItem(optionShit['vault']);
-            }
-            #end
-
-            #if optionShit = 'credits' (controls.UI_UP_P)
-            {
-                FlxG.sound.play(Paths.sound('scrollMenu'));
-                changeItem(optionShit['story_mode']);
-            }
-            #end
 
             if (controls.BACK)
             {
