@@ -27,13 +27,6 @@ class MainMenuState extends MusicBeatState
     public static var psychEngineVersion:String = '0.7.INTROVERSE';
     public static var curSelected:Int = 0;
 
-    // sum discarded shit too
-    public var menuLevelPostions:Array<Dynamic> = [
-        0 => '450, 300',
-        1 => '300, 300',
-        2 => '650, 300'
-    ];
-
     var menuItems:FlxTypedGroup<FlxSprite>;
     private var camGame:FlxCamera;
     private var camAchievement:FlxCamera;
