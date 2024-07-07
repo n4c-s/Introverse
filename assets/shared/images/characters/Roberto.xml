@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Roberto.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="Infected Robert idle 10000" x="3212" y="540" width="359" height="546" frameX="-80" frameY="-19" frameWidth="545" frameHeight="601"/>
+	<SubTexture name="Infected Robert idle 20000" x="3212" y="0" width="376" height="540" frameX="-112" frameY="-27" frameWidth="545" frameHeight="601"/>
+	<SubTexture name="Infected Robert idle 30000" x="394" y="1712" width="404" height="531" frameX="-112" frameY="-38" frameWidth="545" frameHeight="601"/>
+	<SubTexture name="Infected Robert idle 40000" x="3212" y="1667" width="341" height="486" frameX="-76" frameY="-58" frameWidth="545" frameHeight="601"/>
+	<SubTexture name="Infected Robert idle 50000" x="389" y="2351" width="411" height="372" frameX="-53" frameY="-116" frameWidth="545" frameHeight="601"/>
+	<SubTexture name="Infected Robert idle 60000" x="3212" y="540" width="359" height="546" frameX="-80" frameY="-19" frameWidth="545" frameHeight="601"/>
+	<SubTexture name="Infected Robert idle 70000" x="3212" y="540" width="359" height="546" frameX="-80" frameY="-19" frameWidth="545" frameHeight="601"/>
+	<SubTexture name="Infected Robert idle 80000" x="3212" y="540" width="359" height="546" frameX="-80" frameY="-19" frameWidth="545" frameHeight="601"/>
+	<SubTexture name="Infected Robert idle 90000" x="3212" y="540" width="359" height="546" frameX="-80" frameY="-19" frameWidth="545" frameHeight="601"/>
+	<SubTexture name="Infected Robert idle 100000" x="3212" y="540" width="359" height="546" frameX="-80" frameY="-19" frameWidth="545" frameHeight="601"/>
+	<SubTexture name="Down 20000" x="1207" y="1712" width="406" height="433" frameX="-256" frameY="-82" frameWidth="745" frameHeight="609"/>
+	<SubTexture name="Down 30000" x="1613" y="1712" width="421" height="416" frameX="-258" frameY="-97" frameWidth="745" frameHeight="609"/>
+	<SubTexture name="Down 40000" x="2034" y="1712" width="413" height="376" frameX="-256" frameY="-135" frameWidth="745" frameHeight="609"/>
+	<SubTexture name="Down 10000" x="798" y="1712" width="409" height="460" frameX="-254" frameY="-59" frameWidth="745" frameHeight="609"/>
+	<SubTexture name="Left 10000" x="1545" y="1135" width="436" height="570" frameX="-168" frameY="-73" frameWidth="802" frameHeight="702"/>
+	<SubTexture name="Left 20000" x="1045" y="1135" width="500" height="570" frameX="-128" frameY="-74" frameWidth="802" frameHeight="702"/>
+	<SubTexture name="Left 30000" x="0" y="581" width="615" height="554" frameX="-65" frameY="-88" frameWidth="802" frameHeight="702"/>
+	<SubTexture name="Left 40000" x="615" y="581" width="595" height="551" frameX="-64" frameY="-96" frameWidth="802" frameHeight="702"/>
+	<SubTexture name="Up 10000" x="0" y="2351" width="389" height="539" frameX="-28" frameY="-281" frameWidth="446" frameHeight="860"/>
+	<SubTexture name="Up 20000" x="2845" y="0" width="367" height="575" frameX="-35" frameY="-245" frameWidth="446" frameHeight="860"/>
+	<SubTexture name="Up 30000" x="0" y="1712" width="394" height="639" frameX="-32" frameY="-183" frameWidth="446" frameHeight="860"/>
+	<SubTexture name="Up 40000" x="2029" y="581" width="346" height="785" frameX="-42" frameY="-43" frameWidth="446" frameHeight="860"/>
+	<SubTexture name="Right 10000" x="528" y="1135" width="517" height="575" frameX="-35" frameY="-42" frameWidth="730" frameHeight="669"/>
+	<SubTexture name="Right 20000" x="1451" y="559" width="522" height="576" frameX="-48" frameY="-41" frameWidth="730" frameHeight="669"/>
+	<SubTexture name="Right 30000" x="0" y="1135" width="528" height="577" frameX="-62" frameY="-44" frameWidth="730" frameHeight="669"/>
+	<SubTexture name="Right 40000" x="1451" y="0" width="578" height="559" frameX="-86" frameY="-63" frameWidth="730" frameHeight="669"/>
+	<SubTexture name="Chomp 10000" x="3212" y="1086" width="326" height="581" frameX="-65" frameY="-43" frameWidth="1100" frameHeight="670"/>
+	<SubTexture name="Chomp 20000" x="2029" y="0" width="474" height="581" frameX="-65" frameY="-43" frameWidth="1100" frameHeight="670"/>
+	<SubTexture name="Chomp 30000" x="735" y="0" width="716" height="581" frameX="-65" frameY="-43" frameWidth="1100" frameHeight="670"/>
+	<SubTexture name="Chomp 40000" x="0" y="0" width="735" height="581" frameX="-65" frameY="-43" frameWidth="1100" frameHeight="670"/>
+	<SubTexture name="AAAAA0000" x="2503" y="0" width="342" height="702" frameX="-55" frameY="-38" frameWidth="526" frameHeight="771"/>
+</TextureAtlas>
