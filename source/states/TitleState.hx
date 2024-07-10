@@ -97,7 +97,7 @@ class TitleState extends MusicBeatState
 			http.onData = function (data:String)
 			{
 				updateVersion = data.split('\n')[0].trim();
-				var curVersion:String = MainMenuState.psychEngineVersion.trim();
+				var curVersion:String = MainMenuState.introverseVersion.trim();
 				trace('version online: ' + updateVersion + ', your version: ' + curVersion);
 				if(updateVersion != curVersion) {
 					trace('versions arent matching!');
@@ -246,6 +246,7 @@ class TitleState extends MusicBeatState
 			//EDIT THIS ONE IF YOU'RE MAKING A SOURCE CODE MOD!!!!
 				gfDance.frames = Paths.getSparrowAtlas('gfDanceTitle');
 				gfDance.animation.addByPrefix('danceLeft', 'God Eater Spin', 24, false);
+				gfDance.animation.addByPrefix('danceRight', 'God Eater Spin', 24, false);
 		}
 
 		add(gfDance);

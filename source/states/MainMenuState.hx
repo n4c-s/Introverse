@@ -23,7 +23,8 @@ class MainMenuState extends MusicBeatState
     // discarded code
     var starData:Array<Dynamic> = [SaveVariables.storySave[0], SaveVariables.storySave[1]];
 
-    public static var introverseVersion:String = ' 0.7.2 build 103';
+    public static var introverseVersion:String = '0.7.6';
+    public static var buildNumber:String = ' build 103';
     public static var psychEngineVersion:String = '0.7.3 (Introverse version)';
     public static var curSelected:Int = 0;
 
@@ -174,7 +175,7 @@ class MainMenuState extends MusicBeatState
 
 
         // Version Information
-        var versionShit:FlxText = new FlxText(12, FlxG.height - 64, 0, "Introverse v" + introverseVersion, 12);
+        var versionShit:FlxText = new FlxText(12, FlxG.height - 64, 0, "Introverse v" + introverseVersion + buildNumber, 12);
         versionShit.scrollFactor.set();
         versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
         add(versionShit);
