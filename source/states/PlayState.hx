@@ -95,7 +95,7 @@ class PlayState extends MusicBeatState
 		['Perfect!!', 1] //The value on this one isn't used actually, since Perfect is always "1"
 	];
 
-	private var tituloekisde = "Introverse Mod: Playing ";
+	
 
 	//event variables
 	private var isCameraOnForcedPos:Bool = false;
@@ -271,6 +271,7 @@ class PlayState extends MusicBeatState
 	// cosillas para la ventanita (inspirado en MARIO MADNESS OMAIGAD)
 	private var nombreCancion:String = Paths.formatToSongPath(SONG.song);
 	private var dificultaCancion:String = Paths.formatToSongPath(Difficulty.getString().toUpperCase());
+	private var tituloekisde = "Introverse Mod: Playing ";
 	public var stream:Int = 0;
 	var winx:Int;
 	var winy:Int;
@@ -286,7 +287,6 @@ class PlayState extends MusicBeatState
 			}
 			else
 			{
-				nombreCancion = SONG.song;
 				Lib.application.window.title = tituloekisde + nombreCancion + ' On ' + dificultaCancion + ' difficulty ';
 			}
 		#end

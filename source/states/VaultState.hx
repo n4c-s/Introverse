@@ -28,7 +28,7 @@ class VaultState extends MusicBeatState
     private var camAchievement:FlxCamera;
    
     var optionShit:Array<String> = [
-        'funny variants',
+        'funny_variants',
         'good_ol_times',
         'disturbing_secrets',
         'happy_day',
@@ -99,7 +99,7 @@ class VaultState extends MusicBeatState
         // UI CODE!
         // cat 1
         var offset:Float = 108 - (Math.max(optionShit.length, 4) - 4) * 80;
-        var menuItem:FlxSprite = new FlxSprite(0, 0);
+        var menuItem:FlxSprite = new FlxSprite(650, 360);
         menuItem.scale.x = scale * 2;
         menuItem.scale.y = scale * 2;
         menuItem.frames = Paths.getSparrowAtlas('vault/funny_variants');
@@ -225,7 +225,7 @@ class VaultState extends MusicBeatState
 
 		// cat 8
         offset = 108 - (Math.max(optionShit.length, 4) - 4) * 80;
-        menuItem = new FlxSprite(0, 0);
+        menuItem = new FlxSprite(0, 360);
         menuItem.scale.x = scale * 2;
         menuItem.scale.y = scale * 2;
         menuItem.frames = Paths.getSparrowAtlas('vault/finale');
@@ -336,21 +336,21 @@ class VaultState extends MusicBeatState
                                 switch (daChoice)
                                 {
                                     case 'funny_variants':
-                                        MusicBeatState.switchState(new FreeplayState());
+                                        MusicBeatState.switchState(new FreeplayState1());
                                     case 'good_ol_times':
-                                        MusicBeatState.switchState(new FreeplayState());
+                                        MusicBeatState.switchState(new FreeplayState2());
                                     case 'disturbing_secrets':
-                                        MusicBeatState.switchState(new FreeplayState());
+                                        MusicBeatState.switchState(new FreeplayState3());
 									case 'happy_day':
-										MusicBeatState.switchState(new FreeplayState());
+										MusicBeatState.switchState(new FreeplayState4());
 									case 'depressive_cases':
-										MusicBeatState.switchState(new FreeplayState());
+										MusicBeatState.switchState(new FreeplayState5());
 									case 'time_traveler':
-										MusicBeatState.switchState(new FreeplayState());
+										MusicBeatState.switchState(new FreeplayState6());
 									case 'non_canon_or_joke_lol':
-										MusicBeatState.switchState(new FreeplayState());
+										MusicBeatState.switchState(new FreeplayState7());
 									case 'finale':
-										MusicBeatState.switchState(new FreeplayState());
+										MusicBeatState.switchState(new FreeplayState8());
                                 }
                             });
                         }
