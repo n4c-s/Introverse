@@ -23,8 +23,8 @@ class MainMenuState extends MusicBeatState
     // discarded code
     var starData:Array<Dynamic> = [SaveVariables.storySave[0], SaveVariables.storySave[1]];
 
-    public static var introverseVersion:String = '0.7.6';
-    public static var buildNumber:String = ' build 103';
+    public static var introverseVersion:String = '0.8';
+    public static var buildNumber:String = ' build 150';
     public static var psychEngineVersion:String = '0.7.3 (Introverse version)';
     public static var curSelected:Int = 0;
 

@@ -1,3 +1,4 @@
+// LANGUAGE SUPPORT !!!!11!!!!!1
 package options;
 
 import lime.app.Application;
@@ -24,7 +25,7 @@ class LanguageSubState extends MusicBeatSubstate
 		};
 		else
 		{
-			Lib.application.window.title = "Introverse mod: Options: Changing Language";
+			Lib.application.window.title = "Introverse Mod: Options: Changing Language";
 		}
 		#end
 

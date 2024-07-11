@@ -117,7 +117,7 @@ class VaultState extends MusicBeatState
 
         // cat 2
         offset = 108 - (Math.max(optionShit.length, 4) - 4) * 80;
-        menuItem = new FlxSprite(0, 0);
+        menuItem = new FlxSprite(1300, 360);
         menuItem.scale.x = scale * 2;
         menuItem.scale.y = scale * 2;
         menuItem.frames = Paths.getSparrowAtlas('vault/good_ol_times');
@@ -135,7 +135,7 @@ class VaultState extends MusicBeatState
 
         // cat 3
         offset = 108 - (Math.max(optionShit.length, 4) - 4) * 80;
-        menuItem = new FlxSprite(0, 0);
+        menuItem = new FlxSprite(1950, 360);
         menuItem.scale.x = scale * 2;
         menuItem.scale.y = scale * 2;
         menuItem.frames = Paths.getSparrowAtlas('vault/disturbing_secrets' + optionShit[2]);
@@ -153,7 +153,7 @@ class VaultState extends MusicBeatState
 
         // cat 4
         offset = 108 - (Math.max(optionShit.length, 4) - 4) * 80;
-        menuItem = new FlxSprite(0, 0);
+        menuItem = new FlxSprite(2600, 360);
         menuItem.scale.x = scale * 2;
         menuItem.scale.y = scale * 2;
         menuItem.frames = Paths.getSparrowAtlas('vault/happy_day');
@@ -171,7 +171,7 @@ class VaultState extends MusicBeatState
 
 		// cat 5
         offset = 108 - (Math.max(optionShit.length, 4) - 4) * 80;
-        menuItem = new FlxSprite(0, 0);
+        menuItem = new FlxSprite(3250, 360);
         menuItem.scale.x = scale * 2;
         menuItem.scale.y = scale * 2;
         menuItem.frames = Paths.getSparrowAtlas('vault/depressive_cases');
@@ -189,7 +189,7 @@ class VaultState extends MusicBeatState
 
 		// cat 6
         offset = 108 - (Math.max(optionShit.length, 4) - 4) * 80;
-        menuItem = new FlxSprite(0, 0);
+        menuItem = new FlxSprite(3900, 360);
         menuItem.scale.x = scale * 2;
         menuItem.scale.y = scale * 2;
         menuItem.frames = Paths.getSparrowAtlas('vault/time_traveler');
@@ -207,7 +207,7 @@ class VaultState extends MusicBeatState
 
 		// cat 7
         offset = 108 - (Math.max(optionShit.length, 4) - 4) * 80;
-        menuItem = new FlxSprite(0, 0);
+        menuItem = new FlxSprite(4550, 360);
         menuItem.scale.x = scale * 2;
         menuItem.scale.y = scale * 2;
         menuItem.frames = Paths.getSparrowAtlas('vault/jokes');
@@ -225,7 +225,7 @@ class VaultState extends MusicBeatState
 
 		// cat 8
         offset = 108 - (Math.max(optionShit.length, 4) - 4) * 80;
-        menuItem = new FlxSprite(0, 360);
+        menuItem = new FlxSprite(5200, 360);
         menuItem.scale.x = scale * 2;
         menuItem.scale.y = scale * 2;
         menuItem.frames = Paths.getSparrowAtlas('vault/finale');

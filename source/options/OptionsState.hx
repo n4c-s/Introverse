@@ -2,6 +2,8 @@ package options;
 
 import states.MainMenuState;
 import backend.StageData;
+import lime.app.Application;
+import openfl.Lib;
 
 class OptionsState extends MusicBeatState
 {
@@ -34,9 +36,17 @@ class OptionsState extends MusicBeatState
 	var selectorRight:Alphabet;
 
 	override function create() {
-		#if DISCORD_ALLOWED
-		DiscordClient.changePresence("Options Menu", null);
-		#end
+		#if desktop
+        DiscordClient.changePresence("Changing options", null);
+        if (FlxG.random.bool(0.2))
+            {
+                Lib.application.window.title = "opsiones ekisde";
+            }
+            else
+            {
+                Lib.application.window.title = "Introverse Mod: Options";
+            }
+        #end
 
 		var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
 		bg.antialiasing = ClientPrefs.data.antialiasing;
