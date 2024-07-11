@@ -32,6 +32,8 @@ class LanguageSubState extends MusicBeatSubstate
         versionShit.scrollFactor.set();
         versionShit.setFormat("VCR OSD Mono", 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
         add(versionShit);
+
+		super();
 	}
 
 	override function update(elapsed:Float) 
