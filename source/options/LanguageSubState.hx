@@ -21,7 +21,7 @@ class LanguageSubState extends MusicBeatSubstate
 		}
 		else if (FlxG.random.bool(0.05))
 		{
-			Lib.application.window.title = "mira march soy brasileño *gemidos*";
+			Lib.application.window.title = "mira march soy brasileño";
 		};
 		else
 		{

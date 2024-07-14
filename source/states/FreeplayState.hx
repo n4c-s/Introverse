@@ -16,7 +16,6 @@ import flixel.math.FlxMath;
 
 class FreeplayState extends MusicBeatState
 {
-	private var songs:Array<SongMetadata> = [];
 
 	var selector:FlxText;
 	private static var curSelected:Int = 0;
@@ -48,8 +47,9 @@ class FreeplayState extends MusicBeatState
 	var bottomText:FlxText;
 	var bottomBG:FlxSprite;
 
+	var songs:Array<SongMetadata> = [];
 	var player:MusicPlayer;
-
+	
 	override function create()
 	{
 		//Paths.clearStoredMemory();
@@ -593,3 +593,6 @@ class SongMetadata
 		if(this.folder == null) this.folder = '';
 	}
 }
+
+
+ 

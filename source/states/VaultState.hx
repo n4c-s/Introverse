@@ -20,7 +20,7 @@ class VaultState extends MusicBeatState
 {
    
 
-    public static var vaultVersion:String = '0.1.5';
+    public static var vaultVersion:String = '0.3.8';
     public static var curSelected:Int = 0;
 
     var menuItems:FlxTypedGroup<FlxSprite>;
