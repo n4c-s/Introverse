@@ -1,0 +1,41 @@
+{
+	"storyName": "",
+	"difficulties": "dont play this pls",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"weeks",
+			"blank",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"",
+			"blank",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hideStoryMode": true,
+	"weekName": "",
+	"hiddenUntilUnlocked": false
+}

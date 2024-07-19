@@ -1,0 +1,11 @@
+{
+	"idle_anim": "godeater",
+	"image": "menu_godeater",
+	"position": [
+		170,
+		14
+	],
+	"flipX": false,
+	"scale": 0.7,
+	"confirm_anim": "God Eater "
+}

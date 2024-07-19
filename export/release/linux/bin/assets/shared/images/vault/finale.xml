@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="finale.png">
+<SubTexture name="finale ayo0000" x="0" y="0" width="317" height="306" frameX="-15" frameY="-7" frameWidth="347" frameHeight="325" />
+</TextureAtlas>

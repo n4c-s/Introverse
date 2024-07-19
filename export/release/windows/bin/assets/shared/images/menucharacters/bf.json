@@ -1,0 +1,11 @@
+{
+	
+	"image": "Menu_BF",
+	"position": [
+		200,
+		100
+	],
+	"scale": 0.75,
+	"idle_anim": "BF ",
+	"confirm_anim": "BF "
+}

@@ -1,0 +1,50 @@
+{
+	"storyName": "",
+	"difficulties": "dont play this pls",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"",
+			"blank",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"natunatic realitis",
+			"blank",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"",
+			"blank",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hideStoryMode": true,
+	"weekName": "",
+	"hiddenUntilUnlocked": false
+}

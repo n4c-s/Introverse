@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gfFuente.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="GF IDLE0000" x="0" y="656" width="637" height="561" frameX="-213" frameY="-167" frameWidth="1006" frameHeight="771"/>
+	<SubTexture name="GF IDLE0001" x="637" y="0" width="637" height="613" frameX="-213" frameY="-115" frameWidth="1006" frameHeight="771"/>
+	<SubTexture name="GF IDLE0002" x="0" y="0" width="637" height="656" frameX="-213" frameY="-72" frameWidth="1006" frameHeight="771"/>
+	<SubTexture name="GF IDLE0003" x="0" y="0" width="637" height="656" frameX="-213" frameY="-72" frameWidth="1006" frameHeight="771"/>
+	<SubTexture name="GF IDLE0004" x="637" y="0" width="637" height="613" frameX="-213" frameY="-115" frameWidth="1006" frameHeight="771"/>
+	<SubTexture name="GF IDLE0005" x="0" y="656" width="637" height="561" frameX="-213" frameY="-167" frameWidth="1006" frameHeight="771"/>
+</TextureAtlas>

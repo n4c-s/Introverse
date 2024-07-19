@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Menu_BF.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="BF 10000" x="0" y="0" width="429" height="415" frameX="-134" frameY="-104" frameWidth="700" frameHeight="641"/>
+	<SubTexture name="BF 20000" x="429" y="0" width="437" height="396" frameX="-128" frameY="-123" frameWidth="700" frameHeight="641"/>
+	<SubTexture name="BF 30000" x="0" y="415" width="437" height="390" frameX="-116" frameY="-129" frameWidth="700" frameHeight="641"/>
+	<SubTexture name="BF 40000" x="437" y="415" width="427" height="383" frameX="-131" frameY="-136" frameWidth="700" frameHeight="641"/>
+	<SubTexture name="BF 50000" x="437" y="415" width="427" height="383" frameX="-131" frameY="-136" frameWidth="700" frameHeight="641"/>
+	<SubTexture name="BF 60000" x="0" y="415" width="437" height="390" frameX="-125" frameY="-129" frameWidth="700" frameHeight="641"/>
+	<SubTexture name="BF 70000" x="429" y="0" width="437" height="396" frameX="-128" frameY="-123" frameWidth="700" frameHeight="641"/>
+	<SubTexture name="BF 80000" x="0" y="0" width="429" height="415" frameX="-134" frameY="-104" frameWidth="700" frameHeight="641"/>
+	<SubTexture name="BF 90000" x="0" y="0" width="429" height="415" frameX="-134" frameY="-104" frameWidth="700" frameHeight="641"/>
+	<SubTexture name="BF 100000" x="0" y="0" width="429" height="415" frameX="-134" frameY="-104" frameWidth="700" frameHeight="641"/>
+	<SubTexture name="BF 110000" x="0" y="0" width="429" height="415" frameX="-134" frameY="-104" frameWidth="700" frameHeight="641"/>
+</TextureAtlas>
