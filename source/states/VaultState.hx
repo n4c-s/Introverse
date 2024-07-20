@@ -99,7 +99,7 @@ class VaultState extends MusicBeatState
         // UI CODE!
         // cat 1
         var offset:Float = 108 - (Math.max(optionShit.length, 4) - 4) * 80;
-        var menuItem:FlxSprite = new FlxSprite(650, 360);
+        var menuItem:FlxSprite = new FlxSprite(450, 300);
         menuItem.scale.x = scale * 2;
         menuItem.scale.y = scale * 2;
         menuItem.frames = Paths.getSparrowAtlas('vault/funny_variants');
@@ -112,12 +112,13 @@ class VaultState extends MusicBeatState
         var scr:Float = (optionShit.length - 4) * 0.135;
         if (optionShit.length < 6) scr = 0;
         menuItem.scrollFactor.set(0, scr);
+        menuItem.screenCenter(X);
         //menuItem.antialiasing = ClientPrefs.globalAntialiasing;
         menuItem.updateHitbox();
 
         // cat 2
         offset = 108 - (Math.max(optionShit.length, 4) - 4) * 80;
-        menuItem = new FlxSprite(1300, 360);
+        menuItem = new FlxSprite(1200, 300);
         menuItem.scale.x = scale * 2;
         menuItem.scale.y = scale * 2;
         menuItem.frames = Paths.getSparrowAtlas('vault/good_ol_times');
@@ -130,12 +131,13 @@ class VaultState extends MusicBeatState
         scr = (optionShit.length - 4) * 0.135;
         if (optionShit.length < 6) scr = 1;
         menuItem.scrollFactor.set(1, scr);
+        menuItem.screenCenter(X);
         //menuItem.antialiasing = ClientPrefs.globalAntialiasing;
         menuItem.updateHitbox();
 
         // cat 3
         offset = 108 - (Math.max(optionShit.length, 4) - 4) * 80;
-        menuItem = new FlxSprite(1950, 360);
+        menuItem = new FlxSprite(1850, 300);
         menuItem.scale.x = scale * 2;
         menuItem.scale.y = scale * 2;
         menuItem.frames = Paths.getSparrowAtlas('vault/disturbing_secrets');
@@ -148,12 +150,13 @@ class VaultState extends MusicBeatState
         scr = (optionShit.length - 4) * 0.135;
         if (optionShit.length < 6) scr = 2;
         menuItem.scrollFactor.set(2, scr);
+        menuItem.screenCenter(X);
         //menuItem.antialiasing = ClientPrefs.globalAntialiasing;
         menuItem.updateHitbox();
 
         // cat 4
         offset = 108 - (Math.max(optionShit.length, 4) - 4) * 80;
-        menuItem = new FlxSprite(2600, 360);
+        menuItem = new FlxSprite(2500, 300);
         menuItem.scale.x = scale * 2;
         menuItem.scale.y = scale * 2;
         menuItem.frames = Paths.getSparrowAtlas('vault/happy_day');
@@ -166,12 +169,13 @@ class VaultState extends MusicBeatState
         scr = (optionShit.length - 4) * 0.135;
         if (optionShit.length < 6) scr = 3;
         menuItem.scrollFactor.set(3, scr);
+        menuItem.screenCenter(X);
         //menuItem.antialiasing = ClientPrefs.globalAntialiasing;
         menuItem.updateHitbox();
 
 		// cat 5
         offset = 108 - (Math.max(optionShit.length, 4) - 4) * 80;
-        menuItem = new FlxSprite(3250, 360);
+        menuItem = new FlxSprite(3150, 300);
         menuItem.scale.x = scale * 2;
         menuItem.scale.y = scale * 2;
         menuItem.frames = Paths.getSparrowAtlas('vault/depressive_cases');
@@ -184,12 +188,13 @@ class VaultState extends MusicBeatState
         scr = (optionShit.length - 4) * 0.135;
         if (optionShit.length < 6) scr = 3;
         menuItem.scrollFactor.set(4, scr);
+        menuItem.screenCenter(X);
         //menuItem.antialiasing = ClientPrefs.globalAntialiasing;
         menuItem.updateHitbox();
 
 		// cat 6
         offset = 108 - (Math.max(optionShit.length, 4) - 4) * 80;
-        menuItem = new FlxSprite(3900, 360);
+        menuItem = new FlxSprite(3800, 300);
         menuItem.scale.x = scale * 2;
         menuItem.scale.y = scale * 2;
         menuItem.frames = Paths.getSparrowAtlas('vault/time_traveler');
@@ -202,12 +207,13 @@ class VaultState extends MusicBeatState
         scr = (optionShit.length - 4) * 0.135;
         if (optionShit.length < 6) scr = 3;
         menuItem.scrollFactor.set(5, scr);
+        menuItem.screenCenter(X);
         //menuItem.antialiasing = ClientPrefs.globalAntialiasing;
         menuItem.updateHitbox();
 
 		// cat 7
         offset = 108 - (Math.max(optionShit.length, 4) - 4) * 80;
-        menuItem = new FlxSprite(4550, 360);
+        menuItem = new FlxSprite(4450, 300);
         menuItem.scale.x = scale * 2;
         menuItem.scale.y = scale * 2;
         menuItem.frames = Paths.getSparrowAtlas('vault/jokes');
@@ -220,12 +226,13 @@ class VaultState extends MusicBeatState
         scr = (optionShit.length - 4) * 0.135;
         if (optionShit.length < 6) scr = 3;
         menuItem.scrollFactor.set(6, scr);
+        menuItem.screenCenter(X);
         //menuItem.antialiasing = ClientPrefs.globalAntialiasing;
         menuItem.updateHitbox();
 
 		// cat 8
         offset = 108 - (Math.max(optionShit.length, 4) - 4) * 80;
-        menuItem = new FlxSprite(5200, 360);
+        menuItem = new FlxSprite(5100, 300);
         menuItem.scale.x = scale * 2;
         menuItem.scale.y = scale * 2;
         menuItem.frames = Paths.getSparrowAtlas('vault/finale');
@@ -238,22 +245,9 @@ class VaultState extends MusicBeatState
         scr = (optionShit.length - 4) * 0.135;
         if (optionShit.length < 6) scr = 3;
         menuItem.scrollFactor.set(7, scr);
+        menuItem.screenCenter(X);
         //menuItem.antialiasing = ClientPrefs.globalAntialiasing;
         menuItem.updateHitbox();
-
-        var versionShit:FlxText = new FlxText(12, FlxG.height - 512, 1200, "THE VAULT IS NOT FUNCTIONAL");
-        versionShit.scrollFactor.set();
-        versionShit.setFormat("VCR OSD Mono", 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-        add(versionShit);
-        var versionShit:FlxText = new FlxText(12, FlxG.height - 472, 1200, "IT IS NOT FULLY PROGRAMMED");
-        versionShit.scrollFactor.set();
-        versionShit.setFormat("VCR OSD Mono", 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-        add(versionShit);
-        var versionShit:FlxText = new FlxText(12, FlxG.height - 432, 1200, "AND MAKES THE GAME BUG, SO GO BACK PLEASE");
-        versionShit.scrollFactor.set();
-        versionShit.setFormat("VCR OSD Mono", 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-        add(versionShit);
-
 
         // Version Information
         var versionShit:FlxText = new FlxText(12, FlxG.height - 24, 0, "Vault Version " + vaultVersion, 12);
@@ -286,13 +280,6 @@ class VaultState extends MusicBeatState
                 FlxG.sound.play(Paths.sound('scrollMenu'));
                 changeItem(1);
             }
-
-            #if optionShit = 1 (controls.UI_DOWN_P)
-                {
-                    FlxG.sound.play(Paths.sound('scrollMenu'));
-                    changeItem(optionShit[3]);
-                }
-            #end
 
             if (controls.BACK)
             {

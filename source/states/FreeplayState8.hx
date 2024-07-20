@@ -63,6 +63,11 @@ class FreeplayState8 extends MusicBeatState
 		    bg.antialiasing = ClientPrefs.data.antialiasing;
 		    add(bg);
 		    bg.screenCenter();
+
+			var versionShit:FlxText = new FlxText(12, FlxG.height - 512, 1250, "F1N4L3333??????????????????");
+        	versionShit.scrollFactor.set();
+        	versionShit.setFormat("VCR OSD Mono", 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+        	add(versionShit);
         }
 
 		var instPlaying:Int = -1;
