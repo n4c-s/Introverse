@@ -4,9 +4,14 @@ APIStuff.hx
 art/build_x32-officialrelease.bat
 art/build_x64-officialrelease.bat
 art/test_x64-debug-officialrelease.bat
+export/debug
+export/release/html5
+export/release/linux/haxe
+export/release/linux/obj
+export/release/windows/haxe
+export/release/windows/obj
 
 ### VS Code
-export/*
 .vscode/*
 .haxelib/
 .github/
@@ -28,3 +33,4 @@ art/build_html-debug.bat
 ### sum shit i nono wanna include
 
 vscode-project.hxml
+

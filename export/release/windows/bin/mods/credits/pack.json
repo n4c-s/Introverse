@@ -1,0 +1,9 @@
+{
+	"name": "Funkin God Eater Mod",
+	"description": "This thing is only for the credits, the mod isnt in this folder. also, don't delete any content on the 'mods' or the folder itself because the week and character and everything is in the folder, so it will make the game go unplayable, unless you edit the .json files in the assets older",
+	"restart":false,
+	"runsGlobally": false,
+	"color": [170, 0, 255],
+	"discordRPC": "863222024192262205",
+	"iconFramerate": 10
+}

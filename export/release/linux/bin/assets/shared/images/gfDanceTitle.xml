@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gfDanceTitle.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="God Eater Spin10000" x="1185" y="690" width="329" height="331" frameX="-91" frameY="-101" frameWidth="511" frameHeight="507"/>
+	<SubTexture name="God Eater Spin20000" x="0" y="1153" width="351" height="350" frameX="-80" frameY="-97" frameWidth="511" frameHeight="507"/>
+	<SubTexture name="God Eater Spin30000" x="789" y="382" width="391" height="372" frameX="-69" frameY="-98" frameWidth="511" frameHeight="507"/>
+	<SubTexture name="God Eater Spin40000" x="0" y="0" width="405" height="388" frameX="-66" frameY="-92" frameWidth="511" frameHeight="507"/>
+	<SubTexture name="God Eater Spin50000" x="405" y="401" width="370" height="361" frameX="-99" frameY="-104" frameWidth="511" frameHeight="507"/>
+	<SubTexture name="God Eater Spin60000" x="706" y="791" width="352" height="353" frameX="-86" frameY="-82" frameWidth="511" frameHeight="507"/>
+	<SubTexture name="God Eater Spin70000" x="0" y="388" width="388" height="403" frameX="-52" frameY="-60" frameWidth="511" frameHeight="507"/>
+	<SubTexture name="God Eater Spin80000" x="1185" y="0" width="345" height="361" frameX="-59" frameY="-87" frameWidth="511" frameHeight="507"/>
+	<SubTexture name="God Eater Spin90000" x="350" y="791" width="356" height="353" frameX="-74" frameY="-83" frameWidth="511" frameHeight="507"/>
+	<SubTexture name="God Eater Spin100000" x="789" y="0" width="396" height="382" frameX="-15" frameY="-46" frameWidth="511" frameHeight="507"/>
+	<SubTexture name="God Eater Spin110000" x="1185" y="361" width="333" height="329" frameX="-50" frameY="-108" frameWidth="511" frameHeight="507"/>
+	<SubTexture name="God Eater Spin120000" x="405" y="0" width="384" height="401" frameX="-64" frameY="-58" frameWidth="511" frameHeight="507"/>
+	<SubTexture name="God Eater Spin130000" x="0" y="791" width="350" height="362" frameX="-76" frameY="-66" frameWidth="511" frameHeight="507"/>
+</TextureAtlas>

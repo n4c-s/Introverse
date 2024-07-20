@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="menu_godeater.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="God Eater 10000" x="0" y="0" width="329" height="331" frameX="-17" frameY="-13" frameWidth="400" frameHeight="351"/>
+	<SubTexture name="God Eater 20000" x="329" y="0" width="329" height="310" frameX="-16" frameY="-34" frameWidth="400" frameHeight="351"/>
+	<SubTexture name="God Eater 30000" x="0" y="331" width="329" height="274" frameX="-17" frameY="-70" frameWidth="400" frameHeight="351"/>
+	<SubTexture name="God Eater 40000" x="329" y="0" width="329" height="310" frameX="-16" frameY="-34" frameWidth="400" frameHeight="351"/>
+</TextureAtlas>

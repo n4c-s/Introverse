@@ -1,0 +1,7 @@
+gira la camara omaga
+
+Value 1: angulo (ponele tipo -45)
+
+value 2: tiempo (1)
+
+Hola Helio
