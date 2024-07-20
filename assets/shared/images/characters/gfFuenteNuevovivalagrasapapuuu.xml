@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gfFuenteNuevovivalagrasapapuuu.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="feiliur0000" x="0" y="0" width="1006" height="771"/>
+	<SubTexture name="feiliur0001" x="0" y="0" width="1006" height="771"/>
+	<SubTexture name="feiliur0002" x="0" y="0" width="1006" height="771"/>
+	<SubTexture name="feiliur0003" x="0" y="0" width="1006" height="771"/>
+	<SubTexture name="feiliur0004" x="0" y="0" width="1006" height="771"/>
+	<SubTexture name="gf left0000" x="1006" y="0" width="1006" height="771"/>
+	<SubTexture name="gf left0001" x="2012" y="0" width="1006" height="771"/>
+	<SubTexture name="gf left0002" x="3018" y="0" width="1006" height="771"/>
+	<SubTexture name="gf left0003" x="1006" y="0" width="1006" height="771"/>
+	<SubTexture name="gf right0000" x="1006" y="0" width="1006" height="771"/>
+	<SubTexture name="gf right0001" x="0" y="771" width="1006" height="771"/>
+	<SubTexture name="gf right0002" x="1006" y="771" width="1006" height="771"/>
+	<SubTexture name="gf right0003" x="1006" y="0" width="1006" height="771"/>
+</TextureAtlas>
