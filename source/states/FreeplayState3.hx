@@ -70,6 +70,11 @@ class FreeplayState3 extends MusicBeatState
         	add(versionShit);
         }
 
+		public function addSong(songName:String, weekNum:Int, songCharacter:String, color:Int)
+			{
+				songs.push(new SongMetadata3(songName, weekNum, songCharacter, color));
+			}
+
 		var instPlaying:Int = -1;
 		public static var vocals:FlxSound = null;
 		override function update(elapsed:Float)

@@ -157,4 +157,21 @@ class CoolUtil
 				text.borderStyle = NONE;
 		}
 	}
+
+	public static var defaultDifficulties:Array<String> = [
+		'Normal'
+	];
+	
+	public static var defaultDifficulty:String = 'Normal';
+
+	inline public static function boundTo(value:Float, min:Float, max:Float):Float {
+		return Math.max(min, Math.min(max, value));
+	}
+
+	public static var difficulties:Array<String> = [];
+
+	public static function difficultyString():String
+		{
+			return difficulties[PlayState.storyDifficulty].toUpperCase();
+		}
 }

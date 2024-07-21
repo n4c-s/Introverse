@@ -50,6 +50,7 @@ class FreeplayState1 extends MusicBeatState
 
 	var player:MusicPlayer;
 
+
         override function create()
         {
             //Paths.clearStoredMemory();
@@ -68,7 +69,85 @@ class FreeplayState1 extends MusicBeatState
         	versionShit.scrollFactor.set();
         	versionShit.setFormat("VCR OSD Mono", 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
         	add(versionShit);
+
+			grpSongs = new FlxTypedGroup<Alphabet>();
+		add(grpSongs);
+
+		for (i in 0...songs.length)
+		{
+			var songText:Alphabet = new Alphabet(90, 320, songs[i].songName, true);
+			songText.targetY = i;
+			grpSongs.add(songText);
+
+			songText.scaleX = Math.min(1, 980 / songText.width);
+			songText.snapToPosition();
+
+			Mods.currentModDirectory = songs[i].folder;
+			var icon:HealthIcon = new HealthIcon(songs[i].songCharacter);
+			icon.sprTracker = songText;
+
+			
+			// too laggy with a lot of songs, so i had to recode the logic for it
+			songText.visible = songText.active = songText.isMenuItem = false;
+			icon.visible = icon.active = false;
+
+			// using a FlxGroup is too much fuss!
+			iconArray.push(icon);
+			add(icon);
+
+			// songText.x += 40;
+			// DONT PUT X IN THE FIRST PARAMETER OF new ALPHABET() !!
+			// songText.screenCenter(X);
+		}
+			WeekData.setDirectoryFromWeek();
+
+			addSong('ickkck', 0, 'pene', 0xFF000000);
         }
+
+		override function closeSubState() {
+			persistentUpdate = true;
+			super.closeSubState();
+		}
+
+		function changeSelection(change:Int = 0, playSound:Bool = true)
+			{
+				_updateSongLastDifficulty();
+				if(playSound) FlxG.sound.play(Paths.sound('scrollMenu'), 0.4);
+		
+				var lastList:Array<String> = Difficulty.list;
+				curSelected += change;
+		
+				if (curSelected < 0)
+					curSelected = songs.length - 1;
+				if (curSelected >= songs.length)
+					curSelected = 0;
+					
+				var newColor:Int = songs[curSelected].color;
+				if(newColor != intendedColor) {
+					if(colorTween != null) {
+						colorTween.cancel();
+					}
+					intendedColor = newColor;
+					colorTween = FlxTween.color(bg, 1, bg.color, intendedColor, {
+						onComplete: function(twn:FlxTween) {
+							colorTween = null;
+						}
+					});
+				}
+		
+				// selector.y = (70 * curSelected) + 30;
+			}
+
+		public function addSong(songName:String, weekNum:Int, songCharacter:String, color:Int)
+			{
+				songs.push(new SongMetadata1(songName, weekNum, songCharacter, color));
+			}
+
+		inline private function _updateSongLastDifficulty()
+			{
+				songs[curSelected].lastDifficulty = Difficulty.getString(curDifficulty);
+			}
+			
 
 		var instPlaying:Int = -1;
 		public static var vocals:FlxSound = null;
