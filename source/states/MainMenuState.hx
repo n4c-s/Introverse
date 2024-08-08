@@ -42,7 +42,8 @@ class MainMenuState extends MusicBeatState
         //'freeplay',
         'vault',
         'credits',
-        'options'
+        'options',
+        'shit'
     ];
 
    
@@ -103,8 +104,6 @@ class MainMenuState extends MusicBeatState
         var scale:Float = 1;
 
    
-        // UI CODE!
-        // Story Mode
         var offset:Float = 108 - (Math.max(optionShit.length, 4) - 4) * 80;
         var menuItem:FlxSprite = new FlxSprite(300, 300);
         menuItem.scale.x = scale * 2;
@@ -122,7 +121,7 @@ class MainMenuState extends MusicBeatState
         //menuItem.antialiasing = ClientPrefs.globalAntialiasing;
         menuItem.updateHitbox();
 
-        // FreePlay Mode
+        
         offset = 108 - (Math.max(optionShit.length, 4) - 4) * 80;
         menuItem = new FlxSprite(650, 300);
         menuItem.scale.x = scale * 2;
@@ -140,7 +139,7 @@ class MainMenuState extends MusicBeatState
         //menuItem.antialiasing = ClientPrefs.globalAntialiasing;
         menuItem.updateHitbox();
 
-        // Credits
+        
         offset = 108 - (Math.max(optionShit.length, 4) - 4) * 80;
         menuItem = new FlxSprite(250, 400);
         menuItem.scale.x = scale * 2;
@@ -158,7 +157,7 @@ class MainMenuState extends MusicBeatState
         //menuItem.antialiasing = ClientPrefs.globalAntialiasing;
         menuItem.updateHitbox();
 
-        // Options
+        
         offset = 108 - (Math.max(optionShit.length, 4) - 4) * 80;
         menuItem = new FlxSprite(650, 400);
         menuItem.scale.x = scale * 2;
@@ -175,6 +174,25 @@ class MainMenuState extends MusicBeatState
         menuItem.scrollFactor.set(3, scr);
         //menuItem.antialiasing = ClientPrefs.globalAntialiasing;
         menuItem.updateHitbox();
+
+        // REMINDER: delete this later when development phase ends
+        offset = 108 - (Math.max(optionShit.length, 4) - 4) * 80;
+        menuItem = new FlxSprite(650, 400);
+        menuItem.scale.x = scale * 2;
+        menuItem.scale.y = scale * 2;
+        menuItem.frames = Paths.getSparrowAtlas('mainmenu/menu_' + optionShit[3]);
+        menuItem.animation.addByPrefix('idle', optionShit[3] + " basic", 24);
+        menuItem.animation.addByPrefix('selected', optionShit[3] + " white", 24);
+        menuItem.animation.play('idle');
+        menuItem.ID = 4;
+        menuItem.setGraphicSize(Std.int(menuItem.width * 0.70));
+        menuItems.add(menuItem);
+        scr = (optionShit.length - 4) * 0.135;
+        if (optionShit.length < 6) scr = 3;
+        menuItem.scrollFactor.set(3, scr);
+        //menuItem.antialiasing = ClientPrefs.globalAntialiasing;
+        menuItem.updateHitbox();
+
 
 
 
@@ -277,6 +295,8 @@ class MainMenuState extends MusicBeatState
                                             PlayState.SONG.arrowSkin = null;
                                             PlayState.SONG.splashSkin = null;
                                         }
+                                    case 'shit':
+                                        MusicBeatState.switchState(new FreeplayState());
                                 }
                             });
                         }

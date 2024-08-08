@@ -53,7 +53,7 @@ class VaultState extends MusicBeatState
         DiscordClient.changePresence("Going onto the v̷̧̓ả̷̚u̴͋͐l̸͇̉t̷̃̿", null);
         if (FlxG.random.bool(0.2))
         {
-            Lib.application.window.title = "nigga what you doin here";
+            Lib.application.window.title = "##### what you doin here";
         }
         else
         {
@@ -96,7 +96,6 @@ class VaultState extends MusicBeatState
         var scale:Float = 1;
 
    
-        // UI CODE!
         // cat 1
         var offset:Float = 108 - (Math.max(optionShit.length, 4) - 4) * 80;
         var menuItem:FlxSprite = new FlxSprite(450, 300);
