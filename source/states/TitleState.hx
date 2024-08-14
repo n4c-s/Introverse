@@ -557,10 +557,8 @@ class TitleState extends MusicBeatState
 					createCoolText(['A mod','for'], -40);
 				case 8:
 					addMoreText('Friday Night Funkin', -40);
-					ngSpr.visible = false;
 				case 9:
 					deleteCoolText();
-					ngSpr.visible = false;
 				case 10:
 					createCoolText([curWacky[0]]);
 				case 12:

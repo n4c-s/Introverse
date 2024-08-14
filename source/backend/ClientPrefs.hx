@@ -77,6 +77,9 @@ import states.TitleState;
 	public var guitarHeroSustains:Bool = true;
 	public var discordRPC:Bool = true;
 
+	// cosas del lenguaje
+	public var laPutaVariableDelIdioma:String = 'English';
+
 	// discarded shit
 	public static var storySave:Array<Bool> = [false, false];
 	public static var worlds:Array<Int> = [0];
