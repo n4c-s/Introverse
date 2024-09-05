@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Berdugo Bon Bon.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="Idle 10000" x="2291" y="0" width="693" height="588" frameX="-30" frameY="-51" frameWidth="809" frameHeight="665"/>
+	<SubTexture name="Idle 20000" x="1396" y="1239" width="703" height="590" frameX="-31" frameY="-49" frameWidth="809" frameHeight="665"/>
+	<SubTexture name="Up 10000" x="1624" y="2445" width="551" height="601" frameX="-85" frameY="-183" frameWidth="781" frameHeight="847"/>
+	<SubTexture name="Up 20000" x="522" y="2445" width="551" height="630" frameX="-85" frameY="-147" frameWidth="781" frameHeight="847"/>
+	<SubTexture name="Up 30000" x="0" y="2445" width="522" height="672" frameX="-120" frameY="-100" frameWidth="781" frameHeight="847"/>
+	<SubTexture name="Up 40000" x="522" y="2445" width="551" height="630" frameX="-85" frameY="-147" frameWidth="781" frameHeight="847"/>
+	<SubTexture name="Left 10000" x="651" y="1841" width="643" height="598" frameX="-75" frameY="-59" frameWidth="853" frameHeight="693"/>
+	<SubTexture name="Left 20000" x="2984" y="1288" width="630" height="598" frameX="-72" frameY="-59" frameWidth="853" frameHeight="693"/>
+	<SubTexture name="Left 30000" x="1294" y="1841" width="587" height="598" frameX="-64" frameY="-59" frameWidth="853" frameHeight="693"/>
+	<SubTexture name="Left 40000" x="2984" y="1288" width="630" height="598" frameX="-72" frameY="-59" frameWidth="853" frameHeight="693"/>
+	<SubTexture name="Down 10000" x="0" y="3117" width="562" height="481" frameX="-99" frameY="-69" frameWidth="805" frameHeight="589"/>
+	<SubTexture name="Down 20000" x="2760" y="2445" width="585" height="457" frameX="-102" frameY="-103" frameWidth="805" frameHeight="589"/>
+	<SubTexture name="Down 30000" x="562" y="3117" width="605" height="437" frameX="-105" frameY="-118" frameWidth="805" frameHeight="589"/>
+	<SubTexture name="Down 40000" x="2760" y="2445" width="585" height="457" frameX="-102" frameY="-103" frameWidth="805" frameHeight="589"/>
+	<SubTexture name="Right 40000" x="744" y="615" width="744" height="615" frameX="-188" frameY="-148" frameWidth="1009" frameHeight="905"/>
+	<SubTexture name="Right 10000" x="1568" y="621" width="723" height="615" frameX="-183" frameY="-148" frameWidth="1009" frameHeight="905"/>
+	<SubTexture name="Right 20000" x="744" y="615" width="744" height="615" frameX="-188" frameY="-148" frameWidth="1009" frameHeight="905"/>
+	<SubTexture name="Right 30000" x="0" y="0" width="784" height="615" frameX="-193" frameY="-148" frameWidth="1009" frameHeight="905"/>
+	<SubTexture name="IIIIDLE 20000" x="693" y="1239" width="703" height="590" frameX="-31" frameY="-49" frameWidth="809" frameHeight="665"/>
+	<SubTexture name="IIIIDLE 10000" x="0" y="1239" width="693" height="602" frameX="-30" frameY="-37" frameWidth="809" frameHeight="665"/>
+	<SubTexture name="RIIIGHT 10000" x="1568" y="0" width="723" height="621" frameX="-183" frameY="-142" frameWidth="1009" frameHeight="905"/>
+	<SubTexture name="RIIIGHT 20000" x="0" y="615" width="744" height="624" frameX="-188" frameY="-139" frameWidth="1009" frameHeight="905"/>
+	<SubTexture name="RIIIGHT 30000" x="784" y="0" width="784" height="615" frameX="-193" frameY="-148" frameWidth="1009" frameHeight="905"/>
+	<SubTexture name="RIIIGHT 40000" x="0" y="615" width="744" height="624" frameX="-188" frameY="-139" frameWidth="1009" frameHeight="905"/>
+	<SubTexture name="LEEEFT10000" x="0" y="1841" width="651" height="604" frameX="-67" frameY="-59" frameWidth="853" frameHeight="693"/>
+	<SubTexture name="LEEEFT20000" x="2984" y="0" width="635" height="610" frameX="-67" frameY="-47" frameWidth="853" frameHeight="693"/>
+	<SubTexture name="LEEEFT30000" x="1881" y="1841" width="587" height="598" frameX="-64" frameY="-59" frameWidth="853" frameHeight="693"/>
+	<SubTexture name="LEEEFT40000" x="2984" y="0" width="635" height="610" frameX="-67" frameY="-47" frameWidth="853" frameHeight="693"/>
+	<SubTexture name="DOOWN10000" x="2291" y="1350" width="578" height="481" frameX="-87" frameY="-69" frameWidth="805" frameHeight="589"/>
+	<SubTexture name="DOOWN20000" x="2175" y="2445" width="585" height="466" frameX="-102" frameY="-103" frameWidth="805" frameHeight="589"/>
+	<SubTexture name="DOOWN30000" x="2984" y="1886" width="605" height="469" frameX="-105" frameY="-118" frameWidth="805" frameHeight="589"/>
+	<SubTexture name="DOOWN40000" x="2175" y="2445" width="585" height="466" frameX="-102" frameY="-103" frameWidth="805" frameHeight="589"/>
+	<SubTexture name="UUUP 10000" x="1073" y="2445" width="551" height="622" frameX="-85" frameY="-181" frameWidth="781" frameHeight="847"/>
+	<SubTexture name="UUUP 20000" x="2984" y="610" width="562" height="678" frameX="-83" frameY="-135" frameWidth="781" frameHeight="847"/>
+	<SubTexture name="UUUP 30000" x="2291" y="588" width="530" height="762" frameX="-112" frameY="-27" frameWidth="781" frameHeight="847"/>
+	<SubTexture name="UUUP 40000" x="2984" y="610" width="562" height="678" frameX="-83" frameY="-135" frameWidth="781" frameHeight="847"/>
+</TextureAtlas>
