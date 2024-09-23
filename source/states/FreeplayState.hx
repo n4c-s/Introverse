@@ -102,7 +102,7 @@ class FreeplayState extends MusicBeatState
 		grpSongs = new FlxTypedGroup<Alphabet>();
 		add(grpSongs);
 
-		addSong('BUGGED', '1', 'bolas', '0xFF000000');
+		addSong('BUGGED', 'pene', 'bolas', '0xFF000000');
 
 		for (i in 0...songs.length)
 		{

@@ -13,7 +13,7 @@ class LanguageSubState extends BaseOptionsMenu
 		'English', 'Español', 'Español (Chile)'
 	];
 
-	private static var curSelected:Int = 0;
+	var curSelected:Int = 0;
 
 	public function new()
 	{
@@ -21,17 +21,16 @@ class LanguageSubState extends BaseOptionsMenu
 		#if desktop
 		if (FlxG.random.bool(0.2)) 
 		{
-			rpctitle = 'please tell this guy to learn english'
 			Lib.application.window.title = "OK, i understand you don't talk english, but please learn it";
 		}
 		else if (FlxG.random.bool(0.05))
 		{
-			rpctitle = 'holaaaa'
+			rpctitle = 'holaaaa';
 			Lib.application.window.title = "mira march soy brasileño";
 		}
 		else
 		{
-			rpctitle = 'Changing Language'
+			rpctitle = 'Changing Language';
 			Lib.application.window.title = "Introverse Mod: Options: Changing Language";
 		}
 		#end
@@ -64,11 +63,11 @@ class LanguageSubState extends BaseOptionsMenu
 			var selectorIdioma:String = idiomasPutos[curSelected];
 
 			switch (selectorIdioma) {
-				case English:
+				case "english":
 					addOption(englishOption);
-				case Spanish:
+				case "spanish":
 					addOption(spanishOption);
-				case SpanishChile:
+				case "spanishChile":
 					addOption(chileOption);
 			};
 		}

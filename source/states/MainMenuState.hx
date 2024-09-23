@@ -103,7 +103,7 @@ class MainMenuState extends MusicBeatState
 
         var scale:Float = 1;
 
-   
+
         var offset:Float = 108 - (Math.max(optionShit.length, 4) - 4) * 80;
         var menuItem:FlxSprite = new FlxSprite(300, 300);
         menuItem.scale.x = scale * 2;
